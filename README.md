@@ -2,7 +2,7 @@
   <img src="resources/img/QuizArenaLogo.png" alt="Quiz Arena Logo" width="300" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
 </p>
 
-<h1 align="center">Quiz Arena 🎮</h1>
+<h1 align="center">Quiz Arena</h1>
 
 <p align="center">
   <strong>Il motore di gioco a quiz multiplayer locale e in tempo reale per Raspberry Pi.</strong><br>
