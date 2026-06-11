@@ -142,9 +142,10 @@ Il software integra un meccanismo di licenza a tempo vincolato all'hardware per 
                                   [ Avvia Quiz Arena ]                  [ Blocca Esecuzione ]
 ```
 
-1. **GitHub come Backend:** Le licenze sono memorizzate come file JSON nella cartella `licenze/<serial_pi>.json` di un repository privato GitHub.
+1. **GitHub come Backend:** Le licenze sono memorizzate come file JSON nella cartella `licenze/<serial_pi>.json` di un repository privato GitHub (utilizzando il piano gratuito di GitHub).
 2. **Validazione Hardware:** Il server legge l'identificativo seriale unico del chip Raspberry Pi leggendo `/proc/cpuinfo`.
 3. **Grace Period Offline:** Il sistema richiede una connessione ad internet per il rinnovo della licenza almeno una volta ogni 7 giorni. In caso di mancanza di rete, si appoggia ad una cache locale crittografata.
+4. **Costi di Infrastruttura e Manutenzione Zero:** Non sono necessari server cloud dedicati né database SaaS a pagamento. Tutto il database risiede in locale su SQLite, e GitHub gestisce la distribuzione delle licenze a costo zero. L'unico costo fisico del progetto è l'hardware del Raspberry Pi.
 
 ---
 
