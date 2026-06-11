@@ -43,3 +43,6 @@ Thumbs.db
 # Temp
 tmp/
 temp/
+
+# TXT
+*.txt
